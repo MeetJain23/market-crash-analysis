@@ -1,12 +1,12 @@
 # quantcrash
 
-A pure C++17 toolkit for dissecting how markets crash and recover — built to
+A pure C++17 toolkit for dissecting how markets crash and recover which is built to
 study episodes like 2008 and COVID-2020 from daily OHLCV data.
 
 The goal is *characterisation, not prediction*: measure what historical bottoms
 had in common (drawdown depth, capitulation volume, indicator extremes, how many
 down-legs a decline made) and back-test whether simple rules would have caught
-them. It does **not** claim to call the next bottom in advance — anything that
+them. It does **not** claim to call the next bottom in advance or anything that
 does is fooling you.
 
 ## Status
@@ -30,7 +30,7 @@ cmake --build build
 
 ## Data
 
-Free daily history with no API key: [Stooq](https://stooq.com/). Example — the
+Free daily history with no API key: [Stooq](https://stooq.com/). Example: the
 S&P 500 index:
 
 ```
